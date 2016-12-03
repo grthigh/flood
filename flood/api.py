@@ -22,7 +22,7 @@ class TorrentApi(object):
 
 class KickAssTorrentApi(TorrentApi):
 
-    def __init__(self, base_url='http://kickass.to'):
+    def __init__(self, base_url='http://kickass.unblocked.uno'):
         TorrentApi.__init__(self, base_url)
 
     def search(self, query, page=1):
